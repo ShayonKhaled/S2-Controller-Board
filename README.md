@@ -1,4 +1,5 @@
-![IMG_2460 2](https://github.com/user-attachments/assets/6cf9a933-7dae-4a53-ab7a-b865757b496b)# S2 Controller Board PCB 🚀
+#S2 Controller Board 
+![IMG_2460 2](https://github.com/user-attachments/assets/6cf9a933-7dae-4a53-ab7a-b865757b496b)# 
 
 ## Overview
 The S2 Controller Board is a custom-designed PCB created for our university's Competitive Robotics team. It serves as a compact and efficient solution to streamline our robot's control systems. This board is a core component of the new drivetrain we've been developing.
@@ -46,7 +47,6 @@ This ESP32-based controller board is packed with functionality designed to simpl
 
 - **3D Render**  
 ![3D View](https://github.com/user-attachments/assets/cb0cf08d-590a-4b7e-9a43-aad14ba9c385)
-![Assembled Board](https://github.com/user-attachments/assets/0eb68f8f-59c7-40a1-8fa1-85b385601cf4)
 
 
 ### Fully Assembled Board

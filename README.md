@@ -35,6 +35,31 @@ This ESP32-based controller board is packed with functionality designed to simpl
   - Buzzer
 - **Power Supply**: 5V input via barrel jack or USB port on the ESP32 (switchable).
 
+## Gallery
+### PCB Design and Assembly
+- **Top View of PCB**  
+![Top view](https://github.com/user-attachments/assets/dcca1b2f-410e-47dd-a2b5-7d8abb0a3d0b)
+
+
+- **Bottom View of PCB**  
+![Bottom View](https://github.com/user-attachments/assets/d3f1d739-334a-4a00-a5b4-d4fd9b4b915b)
+
+
+- **3D Render**  
+![3D View](https://github.com/user-attachments/assets/cb0cf08d-590a-4b7e-9a43-aad14ba9c385)
+
+
+### Fully Assembled Board
+- **Assembled PCB**
+![Assembled Board](https://github.com/user-attachments/assets/66005bf3-4a97-498f-a421-e182f7a061a9)
+
+
+
+### Board in Action
+- **Controller Installed in Our Robot**
+  ![S2 Board Installed in the Robot](https://github.com/user-attachments/assets/c57f9957-f5b0-4c91-9186-2eaf0f77a473)
+
+
 ## **Bill of Materials (BOM)**
 
 | ID  | Name         | Designator     | Footprint                           | Quantity | Manufacturer Part         |
@@ -66,31 +91,6 @@ This ESP32-based controller board is packed with functionality designed to simpl
 | 25  | AUX          | U15            | HDR-TH_2P-P2.54-V-F                 | 1        | KH-2.54FH-1X2P-H8.5       |
 | 26  | 5v_TP        | U16            | HDR-TH_2P-P2.54-V-F                 | 1        | KH-2.54FH-1X2P-H8.5       |
 | 27  | 3v3_TP       | U17            | HDR-TH_2P-P2.54-V-F                 | 1        | KH-2.54FH-1X2P-H8.5       |
-
-
-## Gallery
-### PCB Design and Assembly
-- **Top View of PCB**  
-![Top view](https://github.com/user-attachments/assets/dcca1b2f-410e-47dd-a2b5-7d8abb0a3d0b)
-
-
-- **Bottom View of PCB**  
-![Bottom View](https://github.com/user-attachments/assets/d3f1d739-334a-4a00-a5b4-d4fd9b4b915b)
-
-
-- **3D Render**  
-![3D View](https://github.com/user-attachments/assets/cb0cf08d-590a-4b7e-9a43-aad14ba9c385)
-
-
-### Fully Assembled Board
-- **Assembled PCB**
-![Assembled Board](https://github.com/user-attachments/assets/66005bf3-4a97-498f-a421-e182f7a061a9)
-
-
-
-### Board in Action
-- **Controller Installed in Our Robot**
-  ![S2 Board Installed in the Robot](https://github.com/user-attachments/assets/c57f9957-f5b0-4c91-9186-2eaf0f77a473)
 
 
 ---

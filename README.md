@@ -1,14 +1,14 @@
-#S2 Controller Board 
+# **S2 Controller Board**
 ![IMG_2460 2](https://github.com/user-attachments/assets/6cf9a933-7dae-4a53-ab7a-b865757b496b)# 
 
-## Overview
+## **Overview**
 The S2 Controller Board is a custom-designed PCB created for our university's Competitive Robotics team. It serves as a compact and efficient solution to streamline our robot's control systems. This board is a core component of the new drivetrain we've been developing.
 
-## Problem Statement
+## **Problem Statement**
 Previously, our robots relied on circuits made up of several interconnected perfboards, resulting in a messy and inefficient setup. The S2 Controller Board consolidates these individual modules into a single PCB, providing a cleaner, more organized, and reliable solution for our robots. 
 
 
-## Features
+## **Features**
 This ESP32-based controller board is packed with functionality designed to simplify robotics development and enhance performance:
 
 - **Onboard Accelerometer**: Provides positional feedback for precise control.
@@ -22,7 +22,7 @@ This ESP32-based controller board is packed with functionality designed to simpl
 - **Expansion Capabilities**: Supports additional modules to extend functionality with the pins of ESP32 broken out. 
 
 
-## Technical Specifications
+## **Technical Specifications**
 - **Microcontroller**: ESP32-S2
 - **Accelerometer**: MPU-6050
 - **Communication Protocol**: CAN bus using MCP2515 and TJA1050.
@@ -34,6 +34,39 @@ This ESP32-based controller board is packed with functionality designed to simpl
   - OLED Display
   - Buzzer
 - **Power Supply**: 5V input via barrel jack or USB port on the ESP32 (switchable).
+
+## **Bill of Materials (BOM)**
+
+| ID  | Name         | Designator     | Footprint                           | Quantity | Manufacturer Part         |
+|-----|--------------|----------------|-------------------------------------|----------|---------------------------|
+| 1   | BUZZER       | BUZZER1        | BUZ-TH_BD12.0-P6.00-D0.9-RD         | 1        | buzzer                    |
+| 2   | 10uF         | C1             | CAP-TH_BD4.0-P1.50-D0.8-FD          | 1        | KS106M050C07RR0VH2FP0     |
+| 3   | 22uF         | C2             | CAP-TH_BD4.0-P1.50-D0.8-FD          | 1        | KS106M050C07RR0VH2FP0     |
+| 4   | MPU-6050     | IMU1           | MPU-6050                            | 1        |                           |
+| 5   | 5VPWR        | LED1           | LED-5MM-5MM                         | 1        |                           |
+| 6   | 3V3VPWR      | LED2           | LED-5MM-5MM                         | 1        |                           |
+| 7   | I2C_1        | P5             | CONN-TH_4P-P2.50-XH2.54-4P          | 1        | XH-2.54-4P                |
+| 8   | I2C_2        | P6             | CONN-TH_4P-P2.50-XH2.54-4P          | 1        | XH-2.54-4P                |
+| 9   | I2C_4        | P7             | CONN-TH_4P-P2.50-XH2.54-4P          | 1        | XH-2.54-4P                |
+| 10  | I2C_3        | P8             | CONN-TH_4P-P2.50-XH2.54-4P          | 1        | XH-2.54-4P                |
+| 11  | 220Ω         | R1,R2,R3,R4,R5 | R_AXIAL-0.4                         | 5        |                           |
+| 12  | ESP32        | U1             | COMM-TH_NODEMCU-32SLUA              | 1        | NodeMCU-32SLua            |
+| 13  | OLED Display | U2             | OLED-TH_OLED0.96-I2C                | 1        | ZJY096S0700BG01蓝色       |
+| 14  | MCP2515      | U3             | MCP2515                             | 1        |                           |
+| 15  | RGB-LED      | U4             | LED-TH_4P-BD5.8-P1.30               | 1        | LED-RGB 共阴 插件 直径5mm |
+| 16  | POWER-JACK   | U5             | DC-IN-TH_POWER-JACK                 | 1        | POWER-JACK                |
+| 17  | PWR_SWITCH   | U6             | HDR-TH_2P-P2.54-V-F                 | 1        | KH-2.54FH-1X2P-H8.5       |
+| 18  | LD33CV       | U7             | TO-220                              | 1        | LD33CV                    |
+| 19  | ESP_HEADER   | U8,U9          | HDR-TH_19P-P2.54-V-F                | 2        | KH-2.54FH-1X19P-H8.5      |
+| 20  | SPI_4        | U10            | JST_XH_B06B-XH-A_06X2.50MM_STRAIGHT | 1        | JST_XH CONNECTOR          |
+| 21  | SPI_3        | U11            | JST_XH_B06B-XH-A_06X2.50MM_STRAIGHT | 1        | JST_XH CONNECTOR          |
+| 22  | SPI_2        | U12            | JST_XH_B06B-XH-A_06X2.50MM_STRAIGHT | 1        | JST_XH CONNECTOR          |
+| 23  | SPI_1        | U13            | JST_XH_B06B-XH-A_06X2.50MM_STRAIGHT | 1        | JST_XH CONNECTOR          |
+| 24  | I2C_Selector | U14            | HDR-TH_2P-P2.54-V-F                 | 1        | KH-2.54FH-1X2P-H8.5       |
+| 25  | AUX          | U15            | HDR-TH_2P-P2.54-V-F                 | 1        | KH-2.54FH-1X2P-H8.5       |
+| 26  | 5v_TP        | U16            | HDR-TH_2P-P2.54-V-F                 | 1        | KH-2.54FH-1X2P-H8.5       |
+| 27  | 3v3_TP       | U17            | HDR-TH_2P-P2.54-V-F                 | 1        | KH-2.54FH-1X2P-H8.5       |
+
 
 ## Gallery
 ### PCB Design and Assembly
